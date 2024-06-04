@@ -1,0 +1,7 @@
+{
+  "name": "OnePlusRemake",
+  "displayName": "OnePlusRemake",
+  "plugins": [
+    "@notifee/react-native"
+  ]
+}

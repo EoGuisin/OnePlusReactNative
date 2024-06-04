@@ -1,0 +1,43 @@
+import Anexo from "../Anexo";
+import Cargo from "../Cargo";
+import Conjuge from "../Conjuge";
+import CRECI from "../CRECI";
+import Email from "../Email";
+import Endereco from "../Endereco";
+import Nacao from "../Nacao";
+import Ocupacao from "../Ocupacao";
+import PJVinculado from "../PJVinculado";
+import RegistroGeral from "../RegistroGeral";
+import Telefone from "../Telefone";
+import SalaDeVenda from "../SalaDeVenda";
+import Status from "../Status";
+
+export default interface Pessoa {
+    id: number;
+    pjVinculado?: PJVinculado | undefined;
+    cpf: string;
+    nome: string;
+    natureza: number;
+    dataDeNascimento: string;
+    nacionalidade: Nacao | undefined;
+    emails: Array<Email> | undefined;
+    documentoPessoal: Anexo | undefined;
+    rg?: RegistroGeral | undefined;
+    creci: CRECI | undefined;
+    estadoCivil: number | undefined;
+    documentoDeEstadoCivil: Anexo | undefined;
+    regimeDeBens: number | undefined;
+    cargo: Cargo | undefined;
+    cargos?: Array<Cargo> | undefined;
+    salasDeVenda?: Array<SalaDeVenda> | undefined;
+    ocupacao: Ocupacao | undefined;
+    necessarioAssinaturaDoConjuge: boolean;
+    conjuge: Conjuge | undefined;
+    endereco: Endereco | undefined;
+    documentoEndereco: Anexo | undefined;
+    telefones: Array<Telefone> | undefined;
+    status?: Status;
+    observacao: string | undefined;
+    tokenDeNotificacao: string | undefined;
+    liderResponsavel?: Pessoa | undefined;
+}

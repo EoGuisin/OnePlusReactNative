@@ -1,0 +1,52 @@
+[
+    {
+        "id": 0,
+        "titulo": "",
+        "classificacao": {
+            "id": 1,
+            "descricao": "Texto curto"
+        },
+        "obrigatorio": true,
+        "resposta": ""
+    },
+    {
+        "id": 1,
+        "titulo": "",
+        "classificacao": {
+            "id": 2,
+            "descricao": "Texto longo"
+        },
+        "obrigatorio": true,
+        "resposta": ""
+    },
+    {
+        "id": 2,
+        "titulo": "",
+        "classificacao": {
+            "id": 3,
+            "descricao": "Sim/Não"
+        },
+        "obrigatorio": true,
+        "resposta": ""
+    },
+    {
+        "id": 3,
+        "titulo": "",
+        "classificacao": {
+            "id": 4,
+            "descricao": "Data"
+        },
+        "obrigatorio": true,
+        "resposta": ""
+    },
+    {
+        "id": 4,
+        "titulo": "",
+        "classificacao": {
+            "id": 5,
+            "descricao": "Hora"
+        },
+        "obrigatorio": true,
+        "resposta": ""
+    }
+]

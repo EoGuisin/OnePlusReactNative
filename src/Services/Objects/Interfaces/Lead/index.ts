@@ -1,0 +1,75 @@
+import AgendamentoDeVisita from "../AgendamentoDeVisita";
+import Anotacao from "../Anotacao";
+import Atividade from "../Atividade";
+import Anexo from "../Anexo";
+import CertidaoDeCasamento from "../CertidaoDeCasamento";
+import CNH from "../CNH";
+import DadoDoVeiculo from "../DadoDoVeiculo";
+import Dependente from "../Dependente";
+import Desqualificacao from "../Desqualificacao";
+import Email from "../Email";
+import EmailEnviado from "../EmailEnviado";
+import Empresa from "../Empresa";
+import Formulario from "../Formulario";
+import Endereco from "../Endereco";
+import HistoricoDoControleDeSala from "../HistoricoDoControleDeSala";
+import HistoricoDoFunil from "../HistoricoDoFunil";
+import LocalDeCaptacao from "../LocalDeCaptacao";
+import ItemDoAlmoxarifadoDeBrinde from "../ItemDoAlmoxarifadoDeBrinde";
+import Nacao from "../Nacao";
+import Naturalidade from "../Naturalidade";
+import Ocupacao from "../Ocupacao";
+import Pessoa from "../Pessoa";
+import RegimeDeCasamento from "../RegimeDeBens";
+import RegistroGeral from "../RegistroGeral";
+import Tarefa from "../Tarefa";
+import Telefone from "../Telefone";
+
+export default interface Lead {
+  dataDeCadastro: string;
+  id: number;
+  cpf: string;
+  nome: string;
+  dataDeNascimento: string;
+  idade: number | undefined;
+  naturalidade: Naturalidade | undefined;
+  nacionalidade: Nacao | undefined;
+  sexo: number | undefined;
+  emails: Array<Email> | undefined;
+  fotoDoLead: Anexo | undefined;
+  documentoPessoal: Anexo | undefined;
+  rg: RegistroGeral | undefined;
+  cnh: CNH | undefined;
+  filiacao01: string; //! Nome do pai.
+  filiacao02: string; //! Nome da Mãe.
+  estadoCivil: number | undefined;
+  certidaoDeCasamento: CertidaoDeCasamento | undefined;
+  regimeDeCasamento: RegimeDeCasamento | undefined;
+  ocupacao: Ocupacao | undefined;
+  renda: number | undefined; 
+  dadosDosVeiculos: Array<DadoDoVeiculo> | undefined;
+  dependentes: Array<Dependente> | undefined;
+  endereco: Endereco | undefined;
+  documentoEndereco: Anexo | undefined;
+  documentoDeEstadoCivil: Anexo | undefined;
+  telefones: Array<Telefone> | undefined;
+  localDeCaptacao?: LocalDeCaptacao | undefined;
+  status: number | undefined;
+  alturaDoItem: number | undefined;
+  historicoDoFunil: Array<HistoricoDoFunil> | undefined;
+  atividades: Array<Atividade> | undefined;
+  anotacoes: Array<Anotacao> | undefined;
+  emailsEnviados: Array<EmailEnviado> | undefined;
+  tarefas: Array<Tarefa> | undefined;
+  formularios: Array<Formulario> | undefined;
+  brindesOfertados: Array<ItemDoAlmoxarifadoDeBrinde> | undefined;
+  historicoDoControleDeSala?: Array<HistoricoDoControleDeSala>;
+  emSala?: boolean | undefined;
+  oportunidade?: boolean | undefined,
+  keyField?: string | undefined;
+  corDoCard?: string;
+  agendamentosDeVisitas?: Array<AgendamentoDeVisita> | undefined;
+  qualificado: boolean;
+  motivoDeDesqualificacao?: Desqualificacao;
+  pjVinculado?: Empresa | undefined;
+}
