@@ -7,10 +7,10 @@ O aplicativo é voltado para gestão imobiliária altamente funcional, abrangend
 The application is geared towards highly functional real estate management, encompassing functionalities such as direct sales and reservations of allotments and quotas, payment of allotment slips, control of sales rooms and sales funnels being able to manage and create your own funnel, among others, meeting the specific needs of each client separately according to their business rule.
 
 <div align="center">
-  <img src="https://i.ibb.co/QPhN6TD/Project-8.jpg" />
-  <img src="https://i.ibb.co/r39vjHF/Project-7.jpg" />
-  <img src="https://i.ibb.co/2k1qkSr/Project-10.jpg" />
-  <img src="https://i.ibb.co/z5zQPTc/Project-12.jpg" />
-  <img src="https://i.ibb.co/gTYKmNQ/Project-13-jpeg.png" />
+  <img src="https://i.ibb.co/QPhN6TD/Project-8.jpg" heigth="250" />
+  <img src="https://i.ibb.co/r39vjHF/Project-7.jpg" heigth="250" />
+  <img src="https://i.ibb.co/2k1qkSr/Project-10.jpg" heigth="250" />
+  <img src="https://i.ibb.co/z5zQPTc/Project-12.jpg" heigth="250" />
+  <img src="https://i.ibb.co/gTYKmNQ/Project-13-jpeg.png" heigth="250" />
 </div>
 
