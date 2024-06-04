@@ -2,7 +2,7 @@
 
 The application is geared towards highly functional real estate management, encompassing functionalities such as direct sales and reservations of allotments and quotas, payment of allotment slips, control of sales rooms and sales funnels being able to manage and create your own funnel, among others, meeting the specific needs of each client separately according to their business rule.
 
-<h2>📷 App Photos</h2>
+<h2 align="center">📷 App Photos</h2>
 
 <div align="center">
   <img src="https://i.ibb.co/QPhN6TD/Project-8.jpg" height="300" />
