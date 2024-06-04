@@ -11,4 +11,3 @@ The application is geared towards highly functional real estate management, enco
   <img src="https://i.ibb.co/z5zQPTc/Project-12.jpg" height="300" />
   <img src="https://i.ibb.co/gTYKmNQ/Project-13-jpeg.png" height="300" />
 </div>
-
